@@ -6,7 +6,7 @@ const Clients = () => (
     <div className={`${styles.flexCenter} flex-wrap w-full`}>
     <h1 className={styles.heading2}>Contact Us</h1>
 
-   <p className={`${styles.paragraph} mt-5`}> Email ID: icamc@hmritm.ac.in
+   <p className={`${styles.paragraph} mt-5`}> Email ID: icamc24@hmritm.ac.in
 
 Contact: +91 9999629550</p>
     
