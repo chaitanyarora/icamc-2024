@@ -18,22 +18,22 @@ const CardDeal = () => (
                         </tr>
                         <tr>
                             <td>Faculty/Academician Participants</td>
-                            <td>₹1700</td>
+                            <td>₹3000</td>
                             <td>-</td>
                         </tr>
                         <tr>
                             <td>Research Scholars/Students</td>
-                            <td>₹1200</td>
+                            <td>₹2500</td>
                             <td>-</td>
                         </tr>
                         <tr>
                             <td>Industry Participants</td>
-                            <td>₹2000</td>
+                            <td>₹3500</td>
                             <td>-</td>
                         </tr>
                         <tr>
                             <td>Foreign Participants</td>
-                            <td>USD 50</td>
+                            <td>USD 100</td>
                             <td>-</td>
                         </tr>
                     </table>
