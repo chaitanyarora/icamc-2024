@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, manuscript  } from "../assets";
 
 export const navLinks = [
   {
@@ -8,6 +8,22 @@ export const navLinks = [
   {
     id: "about",
     title: "About",
+  },
+  {
+    id: "call-for-paper",
+    title: "Call For Paper",
+  },
+  {
+    id: "publication",
+    title: "Publication",
+  },
+  {
+    id: "advisory-board",
+    title: "Advisory Board",
+  },
+  {
+    id: "committe",
+    title: "Committe",
   },
   {
     id: "product",
@@ -20,6 +36,24 @@ export const navLinks = [
   {
     id: "guidelines",
     title: "Guidelines",
+  },
+];
+
+export const guidelines = [
+  {
+    id: "guideline-1",
+    attachment: "",
+    content: "Full papers describing recent developments in the areas of Artificial Intelligence, Machine Learning and Cyber Security are welcome for oral presentation and poster presentation. The papers submitted need to be atleast 2500 words and will be subjected to peer review, plagiarism / quality checks and registration by atleast one of the authors before inclusion in the conference proceeding. Without registration, No paper will be included in proceeding / journals.",
+  },
+  {
+    id: "guideline-2",
+    attachment: "yes",
+    content: `All the manuscripts must adhere to Author guidelines available at`,
+  },
+  {
+    id: "guideline-3",
+    attachment: "",
+    content: "Decision of the organizers will be final and binding.",
   },
 ];
 
