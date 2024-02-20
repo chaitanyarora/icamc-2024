@@ -12,6 +12,7 @@ import CallForPaper from "./CallForPaper";
 import Guidelines from "./Guidelines";
 import AdvisoryBoard from "./AdvisoryBoard";
 import Committe from "./Committe";
+import Date from "./Date"
 
 export {
   Navbar,
@@ -27,5 +28,6 @@ export {
   CallForPaper,
   Guidelines,
   AdvisoryBoard,
-  Committe
+  Committe,
+  Date
 };

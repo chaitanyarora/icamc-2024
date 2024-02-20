@@ -26,7 +26,7 @@ export const navLinks = [
     title: "Committe",
   },
   {
-    id: "product",
+    id: "date",
     title: "Dates",
   },
   {
@@ -57,19 +57,70 @@ export const advisoryBoard = [
   {
     id: "2",
     name: "Prof. Ravi Shankar",
-    position: "Pro-Chancellor and Professor of Eminence",
+    position: "",
     institution: "Indian Institute of Technology, Delhi",
     country: "India",
   },
   {
     id: "3",
-    name: "Prof. Ravi Shankar",
-    position: "Pro-Chancellor and Professor of Eminence",
+    name: "Prof. Sukumar Mishra",
+    position: "-",
     institution: "Indian Institute of Technology, Delhi",
     country: "India",
   },
   
 ];
+
+export const committe = [
+  {
+    id: "1",
+    name: "Hon'ble Sh. Anil Kumar Gupta, Chairman",
+    position: "Chief Patron",
+    institution: "HMRITM",
+  },
+  {
+    id: "2",
+    name: "Sh. N. K. Sharma, IAS (R)",
+    position: "Patron",
+    institution: "HMRITM",
+  },
+  {
+    id: "3",
+    name: "Prof. (Dr.) V.C. Pandey, Director",
+    position: "Patron",
+    institution: "HMRITM",
+  },
+];
+
+export const dates = [
+  {
+    id: "1",
+    name: "Dates of the conference",
+    deadline: "May 9-10, 2024",
+  },
+  {
+    id: "2",
+    name: "Deadline for submission",
+    deadline: "April 07, 2024",
+  },
+  {
+    id: "3",
+    name: "Acceptance Notification",
+    deadline: "April 15, 2024",
+  },
+  {
+    id: "4",
+    name: "Camera Ready Paper",
+    deadline: "April 20, 2024",
+  },
+  {
+    id: "5",
+    name: "Early Bird Registration",
+    deadline: "April 20, 2024",
+  },
+];
+
+
 
 export const guidelines = [
   {
