@@ -15,7 +15,7 @@ const Hero = () => {
 
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex flex-col font-poppins font-semibold ss:text-[40px] text-[30px] text-white ss:leading-[70px] leading-[45px]">
-            International Conference on Emerging Applications of
+            2nd International Conference on Emerging Applications of
             <p>
               <span className="text-gradient">Artificial Intelligence, Machine Learning and Cybersecurity</span> 2024
             </p>{" "}
@@ -24,7 +24,7 @@ const Hero = () => {
       </div>
 
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
-        <img src={robot} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
+        <img src={robot} alt="robot-hand" className="w-[100%] h-[100%] relative z-[5]" />
 
         {/* gradient start */}
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
