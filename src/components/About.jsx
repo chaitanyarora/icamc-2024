@@ -18,7 +18,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
   </div>
 );
 
-const Business = () =>  (
+const About = () =>  (
   <section id="about" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
@@ -41,4 +41,4 @@ ICAMC 2024 is the premier single-track conference for reporting advances in all 
   </section>
 );
 
-export default Business;
+export default About;

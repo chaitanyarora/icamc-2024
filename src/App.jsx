@@ -1,40 +1,49 @@
 import styles from "./style";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero } from "./components";
+import { Billing, About, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero } from "./components";
+import Guidelines from "./components/Guidelines";
 
 const App = () => (
-  
+
 
   <div className="bg-primary w-full overflow-hidden">
-  <BrowserRouter>
-  <Routes>
-    <Route path="/clients" element = {<Clients />}></Route>
-    <Route path="/products" element = {<Business />}></Route>
-  </Routes>
-    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Navbar />
+    <BrowserRouter>
+      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Navbar />
+        </div>
       </div>
-    </div>
+      <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Routes>
+            <Route path="/clients" element={<Clients />}></Route>
+            <Route path="/about" element={<About />}></Route>
+            <Route path="/guidelines" element={<Guidelines />}></Route>
+          </Routes>
+        </div>
+      </div>
 
-    <div className={`bg-primary ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Hero />
+
+
+      <div className={`bg-primary ${styles.flexStart}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Hero />
+        </div>
       </div>
-    </div>
-    
-    <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
-        {/* <Stats /> */}
-        <Billing />
-        <CardDeal />
-        
-        {/* <Testimonials />
+
+      <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>
+          {/* <Stats /> */}
+          <Billing />
+          <CardDeal />
+
+          {/* <Testimonials />
         <CTA />
         <Footer /> */}
+          <Footer />
+        </div>
       </div>
-    </div>
-  </BrowserRouter>
+    </BrowserRouter>
 
   </div>
 
