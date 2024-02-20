@@ -22,7 +22,7 @@ const AdvisoryBoard = () => (
             <h2 className={styles.heading2}>
                 Advisory Board
             </h2>
-            <div className={`${layout.sectionImg} flex-col`}>
+            <div className={`flex-col`}>
                 {advisoryBoard.map((advisoryB, index) => (
                     <FeatureCard key={advisoryB.id} {...advisoryB} index={index} />
                 ))}

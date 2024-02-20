@@ -1,6 +1,6 @@
 import styles from "./style";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Billing, About, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero, CallForPaper, Guidelines, Committe, AdvisoryBoard, Date } from "./components";
+import { Billing, About, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero, CallForPaper, Guidelines, Committe, AdvisoryBoard, Date, Publication, Registration } from "./components";
 
 const App = () => (
 
@@ -28,7 +28,9 @@ const App = () => (
             <Route path="/guidelines" element={<Guidelines />}></Route>
             <Route path="/callForPaper" element={<CallForPaper />}></Route>
             <Route path="/advisoryBoard" element={<AdvisoryBoard />}></Route>
+            <Route path="/publication" element={<Publication />}></Route>
             <Route path="/date" element={<Date />}></Route>
+            <Route path="/registration" element={<Registration />}></Route>
           </Routes>
         </div>
       </div>
@@ -42,7 +44,7 @@ const App = () => (
           {/* <CallForPaper /> */}
           {/* <Stats /> */}
           {/* <Billing /> */}
-          <CardDeal />
+          {/* <CardDeal /> */}
           {/* <Testimonials />
         <CTA />
         <Footer /> */}

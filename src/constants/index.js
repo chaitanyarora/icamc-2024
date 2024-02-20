@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, manuscript  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star, manuscript } from "../assets";
 
 export const navLinks = [
   {
@@ -30,7 +30,7 @@ export const navLinks = [
     title: "Dates",
   },
   {
-    id: "clients",
+    id: "registration",
     title: "Registration",
   },
   {
@@ -57,7 +57,7 @@ export const advisoryBoard = [
   {
     id: "2",
     name: "Prof. Ravi Shankar",
-    position: "",
+    position: "-",
     institution: "Indian Institute of Technology, Delhi",
     country: "India",
   },
@@ -68,8 +68,9 @@ export const advisoryBoard = [
     institution: "Indian Institute of Technology, Delhi",
     country: "India",
   },
-  
+
 ];
+
 
 export const committe = [
   {
@@ -120,7 +121,30 @@ export const dates = [
   },
 ];
 
-
+export const registration = [
+  {
+    id: "1",
+    type: "Faculty/Academician Participants",
+    amountEarly: "₹3000",
+    amountPost: "-",
+  },
+  {
+    id: "2",
+    type: "Research Scholars/Students",
+    amountEarly: "₹2500",
+    amountPost: "-",
+  }, {
+    id: "3",
+    type: "Industry Participants",
+    amountEarly: "₹3500",
+    amountPost: "-",
+  }, {
+    id: "4",
+    type: "Foreign Participants",
+    amountEarly: "USD 100",
+    amountPost: "-",
+  },
+];
 
 export const guidelines = [
   {
