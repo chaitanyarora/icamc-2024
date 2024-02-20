@@ -8,6 +8,10 @@ import Stats from "./Stats";
 import Footer from "./Footer";
 import Testimonials from "./Testimonials";
 import Hero from "./Hero";
+import CallForPaper from "./CallForPaper";
+import Guidelines from "./Guidelines";
+import AdvisoryBoard from "./AdvisoryBoard";
+import Committe from "./Committe";
 
 export {
   Navbar,
@@ -20,4 +24,8 @@ export {
   Footer,
   Testimonials,
   Hero,
+  CallForPaper,
+  Guidelines,
+  AdvisoryBoard,
+  Committe
 };

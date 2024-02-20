@@ -10,6 +10,22 @@ export const navLinks = [
     title: "About",
   },
   {
+    id: "callForPaper",
+    title: "Call For Paper",
+  },
+  {
+    id: "publication",
+    title: "Publication",
+  },
+  {
+    id: "advisoryBoard",
+    title: "Advisory Board",
+  },
+  {
+    id: "committe",
+    title: "Committe",
+  },
+  {
     id: "product",
     title: "Dates",
   },
@@ -20,6 +36,60 @@ export const navLinks = [
   {
     id: "guidelines",
     title: "Guidelines",
+  },
+];
+
+export const publication = [
+  {
+    id: "1",
+    content: "Selected papers will be published in prestigious book series with ISBN number or Scopus indexed journals* or UGC journals."
+  },
+];
+
+export const advisoryBoard = [
+  {
+    id: "1",
+    name: "Prof. Prem Vrat",
+    position: "Pro-Chancellor and Professor of Eminence",
+    institution: "Northcap University, Gurugram",
+    country: "India",
+  },
+  {
+    id: "2",
+    name: "Prof. Ravi Shankar",
+    position: "Pro-Chancellor and Professor of Eminence",
+    institution: "Indian Institute of Technology, Delhi",
+    country: "India",
+  },
+  {
+    id: "3",
+    name: "Prof. Ravi Shankar",
+    position: "Pro-Chancellor and Professor of Eminence",
+    institution: "Indian Institute of Technology, Delhi",
+    country: "India",
+  },
+  
+];
+
+export const guidelines = [
+  {
+    id: "1",
+    content: "Full papers describing recent developments in the areas of Artificial Intelligence, Machine Learning and Cyber Security are welcome for oral presentation and poster presentation. The papers submitted need to be atleast 2500 words and will be subjected to peer review, plagiarism / quality checks and registration by atleast one of the authors before inclusion in the conference proceeding. Without registration, No paper will be included in proceeding / journals.",
+  },
+  {
+    id: "2",
+    content: "All the manuscripts must adhere to Author guidelines available at",
+  },
+  {
+    id: "3",
+    content: "Decision of the organizers will be final and binding.",
+  },
+];
+
+export const callForPaper = [
+  {
+    id: "1",
+    content: "Prospective authors are invited to contribute high-quality papers by the submission deadline through the online submission system. The submission of a paper implies that the paper is original and has not been submitted under review or is not copyright-protected elsewhere and will be presented by an author if accepted. All submitted papers will be refereed by experts in the field based on the criteria of originality, significance, quality and clarity. The authors of accepted papers will have an opportunity to revise their papers and take consideration of the referees' comments and suggestions. Different tracks will be included."
   },
 ];
 

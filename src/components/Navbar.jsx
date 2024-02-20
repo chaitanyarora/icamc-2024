@@ -48,7 +48,8 @@ const Navbar = () => {
                 } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
                 onClick={() => setActive(nav.title)}
               >
-                <a href={`#${nav.id}`}>{nav.title}</a>
+          <Link className="mx-auto" to={`/${nav.id}`}>{`${nav.title}`}</Link>
+                {/* <a href={`#${nav.id}`}>{nav.title}</a> */}
               </li>
             ))}
           </ul>
