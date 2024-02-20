@@ -22,7 +22,7 @@ const About = () =>  (
   <section id="about" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        About
+        About The Conference
       </h2>
       <p className={`${styles.paragraph} mt-5`}>
       HMRITM is going to organize an “International Conference on Emerging Applications of Artificial Intelligence, Machine Learning and Cybersecurity” (ICAMC-2024) in the month of May 2024. 
