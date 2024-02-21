@@ -1,5 +1,6 @@
 import { advisoryBoard, guidelines } from "../constants";
 import styles, {layout} from "../style";
+import Button from "./Button";
 
 const Guidelines = () => (
     <section id="about" className={layout.section}>
@@ -21,6 +22,10 @@ const Guidelines = () => (
                         {guidelines[2].content}
                     </li>
                 </ul>
+            </p>
+
+            <p className={`${styles.paragraph} mt-5`}>
+                <Button buttonText="Download Conference Brochure" buttonLink="/" />
             </p>
         </div>
     </section>
