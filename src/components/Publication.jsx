@@ -9,7 +9,7 @@ const Publication = () => (
                 <h2 className={styles.heading2}>
                     Publication
                 </h2>
-                <p className={`${styles.paragraph} mt-5`}>
+                <p className={`${styles.paragraph} text-justify mt-5`}>
                     {publication[0].content}
                 </p>
             </div>

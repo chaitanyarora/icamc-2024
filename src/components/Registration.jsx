@@ -13,7 +13,7 @@ const Registration = () => (
                     <table class="table">
                         <tr>
                             <th></th>
-                            <th>Early Bird Registration Fee</th>
+                            <th className="mx-2">Early Bird Registration Fee</th>
                             <th>Post Early Bird Registration Fee</th>
                         </tr>
                         {registration.map((reg) => (

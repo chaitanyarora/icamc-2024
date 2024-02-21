@@ -23,6 +23,14 @@ const App = () => (
               </div>  
 
             }></Route>
+            <Route path="/" element={
+              <div className={`bg-primary ${styles.flexStart}`}>
+                <div className={`${styles.boxWidth}`}>
+                  <Hero />
+                </div>
+              </div>  
+
+            }></Route>
             <Route path="/clients" element={<Clients />}></Route>
             <Route path="/about" element={<About />}></Route>
             <Route path="/guidelines" element={<Guidelines />}></Route>
@@ -31,6 +39,7 @@ const App = () => (
             <Route path="/publication" element={<Publication />}></Route>
             <Route path="/date" element={<Date />}></Route>
             <Route path="/registration" element={<Registration />}></Route>
+            <Route path="/committe" element={<Committe />}></Route>
           </Routes>
         </div>
       </div>

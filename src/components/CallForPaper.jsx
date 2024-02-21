@@ -9,7 +9,7 @@ const CallForPaper = () => (
                 <h2 className={styles.heading2}>
                     Call For Paper
                 </h2>
-                <p className={`${styles.paragraph} mt-5`}>
+                <p className={`${styles.paragraph} text-justify mt-5`}>
                     {callForPaper[0].content}
                 </p>
             </div>
