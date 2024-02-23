@@ -331,7 +331,7 @@ export const dates = [
   {
     id: "1",
     name: "Dates of the conference",
-    deadline: "May 9-10, 2024",
+    deadline: "May 16-17, 2024",
   },
   {
     id: "2",
