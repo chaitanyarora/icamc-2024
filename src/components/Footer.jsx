@@ -17,8 +17,7 @@ const Footer = () => (
       </div>
 
       <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
-      <iframe src="https://www.w3schools.com" title="W3Schools Free Online Web Tutorials"></iframe>
-                    
+      <iframe src="google.com" title=""></iframe>
       </div>
     </div>
 

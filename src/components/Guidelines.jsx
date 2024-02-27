@@ -1,8 +1,10 @@
 import { advisoryBoard, guidelines } from "../constants";
-import styles, {layout} from "../style";
+import styles, { layout } from "../style";
 import Button from "./Button";
+import Manuscript from "../assets/manuscript.pdf";
+import Flyer from "../assets/flyer.pdf";
 
-const Guidelines = () => (
+const Guidelines = () => (<>
     <section id="about" className={layout.section}>
         <div className={layout.sectionInfo}>
             <h2 className={styles.heading2}>
@@ -16,7 +18,7 @@ const Guidelines = () => (
                         {guidelines[0].content}
                     </li>
                     <li>
-                    All the manuscripts must adhere to Author guidelines available at <a className="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="./">click here</a>
+                        All the manuscripts must adhere to Author guidelines available at <a download="" className="font-medium text-blue-600 dark:text-blue-500 hover:underline" href={Manuscript}>click here</a>
                     </li>
                     <li>
                         {guidelines[2].content}
@@ -25,10 +27,22 @@ const Guidelines = () => (
             </p>
 
             <p className={`${styles.paragraph} mt-5`}>
-                <Button buttonText="Download Conference Brochure" buttonLink="/" />
+                <a href={Flyer} download="">
+                    <Button buttonText="Download Conference Brochure" />
+                </a>
             </p>
+
         </div>
+
     </section>
+    <div className={layout.sectionInfo}>
+        <h2 className={styles.heading2}>
+            Paper Submission Link
+        </h2>
+        <p className={`${styles.paragraph} text-justify mt-5`}>
+            <Button buttonText="Submit The Paper" buttonLink="https://cmt3.research.microsoft.com/ICAMC2024/Submission/Index" />
+        </p>
+    </div> </>
 );
 
 export default Guidelines;
