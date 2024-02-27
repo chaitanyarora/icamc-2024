@@ -17,7 +17,7 @@ const Footer = () => (
       </div>
 
       <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
-      <iframe src="google.com" title=""></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3495.5057772254922!2d77.14995197550783!3d28.823798375560767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390daaf4c884f85b%3A0x1c00e11a9ce7433c!2sHMR%20Institute%20of%20Technology%20and%20Management!5e0!3m2!1sen!2sin!4v1709011972043!5m2!1sen!2sin" width="700" height="300"  referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
 
