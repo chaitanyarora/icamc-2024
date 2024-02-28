@@ -9,7 +9,7 @@ const Registration = () => (
         Registration Fees
       </h2>
       <p className={`${styles.paragraph}  mt-5`}>
-        <div class="d-flex justify-content-center">
+        <div className="flex flex-wrap justify-content-center">
           <table class="table">
             <tr>
               <th></th>

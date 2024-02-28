@@ -201,129 +201,153 @@ export const advisoryBoard = [
 export const committe = [
   {
     id: "1",
-    name: "Hon'ble Sh. Anil Kumar Gupta, Chairman",
     position: "Chief Patron",
-    institution: "HMRITM",
+    names: [ {
+      id: "1",
+      name: "Hon'ble Sh. Anil Kumar Gupta",
+      institution: "HMRITM",
+    }]
   },
   {
     id: "2",
-    name: "Sh. N. K. Sharma, IAS (R)",
     position: "Patron",
-    institution: "HMRITM",
+    names: [ {
+      id: "1",
+      name: "Sh. N. K. Sharma, IAS (R)",
+      institution: "HMRITM",
+    },
+    {
+      id: "2",
+      name: "Prof. (Dr.) V.C. Pandey, Director",
+      institution: "HMRITM",
+    },
+  ]
   },
   {
     id: "3",
-    name: "Prof. (Dr.) V.C. Pandey, Director",
-    position: "Patron",
-    institution: "HMRITM",
+    position: "General Chair",
+    names: [ 
+      {
+      id: "1",
+      name: "Prof. (Dr.) Sukumar Mishra",
+      institution: "IIT-Delhi",
+    },
+  ]
   },
   {
     id: "4",
-    name: "Prof. (Dr.) Sukumar Mishra",
-    position: "General Chair",
-    institution: "IIT-Delhi",
+    position: "Organizing Chair",
+    names: [ 
+      {
+      id: "1",
+      name: "Prof. (Dr.) Shalini Gupta, Dy. Director",
+      institution: "HMRITM",
+    },    
+  ]
   },
   {
     id: "5",
-    name: "Prof. (Dr.) Shalini Gupta, Dy. Director",
-    position: "Organizing Chair",
-    institution: "HMRITM",
+    position: "Organizing Secretary",
+    names: [ 
+      {
+      id: "1",
+      name: "Prof. (Dr.) Narender Kumar",
+      institution: "HMRITM",
+    },
+  ]
   },
   {
     id: "6",
-    name: "Prof. (Dr.) Narender Kumar",
-    position: "Organizing Secretary",
-    institution: "HMRITM",
+    position: "Convener",
+    names: [ 
+      {
+      id: "1",
+      name: "Dr. Md Ehsan Asgar",
+      institution: "HMRITM",
+    },
+  ]
   },
   {
     id: "7",
-    name: "Dr. Md Ehsan Asgar",
-    position: "Convener",
-    institution: "HMRITM",
+    position: "Co-Convener",
+    names: [ 
+      {
+      id: "1",
+      name: "Mr. Gyanender Kumar",
+      institution: "HMRITM",
+    },
+  ]
   },
   {
     id: "8",
-    name: "Mr. Gyanender Kumar",
-    position: "Co-convener",
-    institution: "HMRITM",
-  },
-  {
-    id: "9",
-    name: "Dr. Sanjeev Uppal",
     position: "Organizing Committee",
-    institution: "HMRITM",
-  },
-  {
-    id: "10",
-    name: "Dr. Pawan",
-    position: "Organizing Committee",
-    institution: "HMRITM",
-  },
-  {
-    id: "11",
-    name: "Dr. Padmaja Panda",
-    position: "Organizing Committee",
-    institution: "HMRITM",
-  },
-  {
-    id: "12",
-    name: "Dr. Chinmayee Tripathi",
-    position: "Organizing Committee",
-    institution: "HMRITM",
-  },
-  {
-    id: "13",
-    name: "Dr. Taruna Sharma",
-    position: "Organizing Committee",
-    institution: "HMRITM",
-  },
-  {
-    id: "14",
-    name: "Dr. Uma Gautam",
-    position: "Organizing Committee",
-    institution: "HMRITM",
-  },
-  {
-    id: "15",
-    name: "Dr. Archna Sahay",
-    position: "Organizing Committee",
-    institution: "HMRITM",
-  },
-  {
-    id: "16",
-    name: "Dr. Shivangi",
-    position: "Organizing Committee",
-    institution: "HMRITM",
-  },
-  {
-    id: "17",
-    name: "Dr. Suresh Kumar",
-    position: "Organizing Committee",
-    institution: "HMRITM",
-  },
-  {
-    id: "18",
-    name: "Dr. Komal Bhardwaj",
-    position: "Organizing Committee",
-    institution: "HMRITM",
-  },
-  {
-    id: "19",
-    name: "Dr. Shikha",
-    position: "Organizing Committee",
-    institution: "HMRITM",
-  },
-  {
-    id: "20",
-    name: "Dr. Vikas",
-    position: "Organizing Committee",
-    institution: "HMRITM",
-  },
-  {
-    id: "21",
-    name: "Dr. Anup Paul",
-    position: "Organizing Committee",
-    institution: "HMRITM",
+    names: [ 
+      {
+      id: "1",
+      name: "Dr. Sanjeev Uppal",
+      institution: "HMRITM",
+    },
+    {
+      id: "2",
+      name: "Dr. Pawan",
+      institution: "HMRITM",
+    },
+    {
+      id: "3",
+      name: "Dr. Padmaja Panda",
+      institution: "HMRITM",
+    },
+    {
+      id: "4",
+      name: "Dr. Chinmayee Tripathi",
+      institution: "HMRITM",
+    },
+    {
+      id: "5",
+      name: "Dr. Taruna Sharma",
+      institution: "HMRITM",
+    },
+    {
+      id: "6",
+      name: "Dr. Uma Gautam",
+      institution: "HMRITM",
+    },
+    {
+      id: "7",
+      name: "Dr. Archna Sahay",
+      institution: "HMRITM",
+    },
+    {
+      id: "8",
+      name: "Dr. Shivangi",
+      institution: "HMRITM",
+    },
+    {
+      id: "9",
+      name: "Dr. Suresh Kumar",
+      institution: "HMRITM",
+    },
+    {
+      id: "10",
+      name: "Dr. Komal Bhardwaj",
+      institution: "HMRITM",
+    },
+    {
+      id: "11",
+      name: "Dr. Shikha",
+      institution: "HMRITM",
+    },
+    {
+      id: "12",
+      name: "Dr. Vikas",
+      institution: "HMRITM",
+    },
+    {
+      id: "13",
+      name: "Dr. Anup Paul",
+      institution: "HMRITM",
+    },      
+  ]
   },
 ];
 
@@ -399,6 +423,29 @@ export const callForPaper = [
   {
     id: "1",
     content: "Prospective authors are invited to contribute high-quality papers by the submission deadline through the online submission system. The submission of a paper implies that the paper is original and has not been submitted under review or is not copyright-protected elsewhere and will be presented by an author if accepted. All submitted papers will be refereed by experts in the field based on the criteria of originality, significance, quality and clarity. The authors of accepted papers will have an opportunity to revise their papers and take consideration of the referees' comments and suggestions. Different tracks will be included."
+  },
+];
+
+export const tracks = [
+  {
+    id: "1",
+    name: "Machine Learning",
+    list: ["Deep learning and neural learning", "Ensemble methods", "Evolutionary learning and nature inspired learning", "Large margin and kernel methods", "Learning from multiple or partial labeling", "Learning in games and multi-agent systems", "Learning theory", "Machine learning applications", "New problems", "Probabilistic models and methods", "Reinforcement learning and on-line learning", "Relation learning and graphs", "Unsupervised learning"] 
+  },
+  {
+    id: "2",
+    name: "Artificial Intelligence",
+    list: ["Artificial Intelligence Applications", "Artificial Neural Networks (Multi Layer FF) Spiking", "Artificial Neural Networks", "Deep Learning", "Neural Networks", "Fuzzy Logic", "Expert Systems", "Computational Intelligence", "Natural Language Processing", "Data Mining", "Biometrics", "Sentiment Analysis"] 
+  },
+  {
+    id: "3",
+    name: "Cyber Security",
+    list: ["Critical infrastructure security", "Application security", "Network security", "Cloud security", "Internet of Things (IoT) security", "Cybercrime"] 
+  },
+  {
+    id: "4",
+    name: "Miscellaneous",
+    list: ["Emerging applications of AI and ML in manufacturing technology","Development in Micro-electronics", "Wireless technology and Renewable technology using AI and ML"] 
   },
 ];
 
