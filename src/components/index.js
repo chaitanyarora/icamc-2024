@@ -7,7 +7,7 @@ import CTA from "./CTA";
 import Stats from "./Stats";
 import Footer from "./Footer";
 import Testimonials from "./Testimonials";
-import Hero from "./Hero";
+import Home from "./Home";
 import CallForPaper from "./CallForPaper";
 import Guidelines from "./Guidelines";
 import AdvisoryBoard from "./AdvisoryBoard";
@@ -26,7 +26,7 @@ export {
   Stats,
   Footer,
   Testimonials,
-  Hero,
+  Home,
   CallForPaper,
   Guidelines,
   AdvisoryBoard,

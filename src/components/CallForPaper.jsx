@@ -26,7 +26,7 @@ const CallForPaper = () => (
                         <h3 className={styles.heading3}>Track {track.id}: {track.name}</h3>
                         <ul className="text-white list-disc">
                         {track.list.map((t, index) => (
-                            <li id={index}>{t}</li>
+                            <li className={`${styles.paragraph}`} id={index}>{t}</li>
                             ))}
                         </ul>
                         </>

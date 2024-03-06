@@ -1,11 +1,11 @@
 import styles from "./style";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Billing, About, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero, CallForPaper, Guidelines, Committe, AdvisoryBoard, Date, Publication, Registration } from "./components";
-
+import { Billing, About, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Home, CallForPaper, Guidelines, Committe, AdvisoryBoard, Date, Publication, Registration } from "./components";
+import { Analytics } from "@vercel/analytics/react"
 const App = () => (
 
 
-  <div className="bg-primary w-full overflow-hidden">
+  <div className="bg-primary w-full overflow-hidden scrollbarThin">
     <BrowserRouter>
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
@@ -18,7 +18,7 @@ const App = () => (
             <Route path="/home" element={
               <div className={`bg-primary ${styles.flexStart}`}>
                 <div className={`${styles.boxWidth}`}>
-                  <Hero />
+                  <Home />
                 </div>
               </div>  
 
@@ -26,7 +26,7 @@ const App = () => (
             <Route path="/" element={
               <div className={`bg-primary ${styles.flexStart}`}>
                 <div className={`${styles.boxWidth}`}>
-                  <Hero />
+                  <Home />
                 </div>
               </div>  
 

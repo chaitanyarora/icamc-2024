@@ -23,5 +23,29 @@ module.exports = {
       xl: "1700px",
     },
   },
-  plugins: [],
+  plugins: [
+    // function ({ addUtilities }) {
+    //   const newUtilities = {
+    //     ".scrollbarThin": {
+    //       scrollbarWidth: "thin",
+    //       scrollbarColor: "rgba(31 29 29) white",
+    //     },
+    //     ".scrollbarWebkit": {
+    //       "&::-webkit-scrollbar": {
+    //         width: "8px",
+    //       },
+    //       "&::-webkit-scrollbar-track": {
+    //         backgroundColor: "white",
+    //       },
+    //       "&::-webkit-scrollbar-thumb": {
+    //         backgroundColor: "rgba(31 41 55)",
+    //         borderRadius: "20px",
+    //         border: "1px solid white",
+    //       },
+    //     }
+    //   };
+
+    //   addUtilities(newUtilities, ["responsive", "hover"]);
+    // }
+  ],
 };
