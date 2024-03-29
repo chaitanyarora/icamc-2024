@@ -42,7 +42,11 @@ export const navLinks = [
 export const publication = [
   {
     id: "1",
-    content: "Selected papers will be published in prestigious book series with ISBN number or Scopus indexed journals* or UGC journals."
+    content: "Selected papers will be considered for publication in the International Journal of Information Technology published by Springer Nature ( Scopus/UGC CARE)- subjected to final evaluation by Springer."
+  },
+  {
+    id: "2",
+    content: "All papers (except pt.1) will be published in conference proceeding with ISBN number."
   },
 ];
 
@@ -400,6 +404,12 @@ export const registration = [
     id: "4",
     type: "Foreign Participants",
     amountEarly: "USD 100",
+    amountPost: "-",
+  },
+  {
+    id: "5",
+    type: "Attendee",
+    amountEarly: "₹500",
     amountPost: "-",
   },
 ];

@@ -27,10 +27,10 @@ const Registration = () => (
         </div>
       </p>
       <p className={`${styles.paragraph} mt-5`}>
-        <Button buttonText="Register" buttonLink="/" />
+        <Button buttonText="Register" buttonLink="" />
       </p>
       <p className={`${styles.paragraph} mt-5`}>
-        <Button buttonText="Payment Link" buttonLink="/" />
+        <Button buttonText="Payment Link" buttonLink="https://eps.eshiksa.net/DirectFeesv3/HMRInstituteTechManagement" />
       </p>
     </div>
   </section>

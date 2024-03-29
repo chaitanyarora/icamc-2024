@@ -12,6 +12,9 @@ const Publication = () => (
                 <p className={`${styles.paragraph} text-justify mt-5`}>
                     {publication[0].content}
                 </p>
+                <p className={`${styles.paragraph} text-justify mt-5`}>
+                    {publication[1].content}
+                </p>
             </div>
         </section>
     
