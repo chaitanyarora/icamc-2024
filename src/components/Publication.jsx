@@ -1,4 +1,4 @@
-import { publication } from '../constants';
+import { publication } from "../constants";
 import styles, { layout } from "../style";
 
 
@@ -9,19 +9,12 @@ const Publication = () => (
             <h2 className={styles.heading2}>
                 Publication
             </h2>
-            <p className={`${styles.paragraph} text-justify mt-5`}>
-                
-                <ul>
-                    {publication.map((p) => {
-                        <li className='text-white' id={p.id}>{p.content}</li>
-                    })}
-                </ul>
 
-            
-
-                </p>
             <p className={`${styles.paragraph} text-justify mt-5`}>
-                {publication[1].content}
+                {publication.map((p) => (
+                    <li className='' id={p.id}>{p.content}</li>
+
+                ))}
             </p>
         </div>
     </section>
