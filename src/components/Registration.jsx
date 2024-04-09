@@ -26,9 +26,9 @@ const Registration = () => (
           </table>
         </div>
       </p>
-      <p className={`${styles.paragraph} mt-5`}>
+      {/* <p className={`${styles.paragraph} mt-5`}>
         <Button buttonText="Register" buttonLink="" />
-      </p>
+      </p> */}
       <p className={`${styles.paragraph} mt-5`}>
         <Button buttonText="Payment Link" buttonLink="https://eps.eshiksa.net/DirectFeesv3/HMRInstituteTechManagement" />
       </p>

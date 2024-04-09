@@ -42,7 +42,7 @@ export const navLinks = [
 export const publication = [
   {
     id: "1",
-    content: "Selected papers will be considered for publication in the International Journal of Information Technology published by Springer Nature ( Scopus/UGC CARE)- subjected to final evaluation by Springer."
+    content: "Selected quality papers will be considered for publication in the International Journal of Information Technology published by Springer Nature ( Scopus/UGC CARE)- subjected to final evaluation by Springer"
   },
   {
     id: "2",
@@ -364,22 +364,22 @@ export const dates = [
   {
     id: "2",
     name: "Deadline for submission",
-    deadline: "April 07, 2024",
+    deadline: "April 20, 2024",
   },
   {
     id: "3",
     name: "Acceptance Notification",
-    deadline: "April 15, 2024",
+    deadline: "April 25, 2024",
   },
   {
     id: "4",
     name: "Camera Ready Paper",
-    deadline: "April 20, 2024",
+    deadline: "April 30, 2024",
   },
   {
     id: "5",
     name: "Early Bird Registration",
-    deadline: "April 20, 2024",
+    deadline: "April 30, 2024",
   },
 ];
 
