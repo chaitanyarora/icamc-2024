@@ -46,7 +46,7 @@ export const publication = [
   },
   {
     id: "2",
-    content: "All papers (except pt.1) will be published in conference proceeding with ISBN number."
+    content: "All papers (except pt.1)(ISBN number/ISSN/number with doi number and indexed in major database like crossref, BASE, Google Scholar e.t.c) will be published in conference proceeding with ISBN number."
   },
 ];
 
@@ -374,12 +374,12 @@ export const dates = [
   {
     id: "4",
     name: "Camera Ready Paper",
-    deadline: "April 30, 2024",
+    deadline: "April 25, 2024",
   },
   {
     id: "5",
     name: "Early Bird Registration",
-    deadline: "April 30, 2024",
+    deadline: "April 25, 2024",
   },
 ];
 
@@ -388,23 +388,23 @@ export const registration = [
     id: "1",
     type: "Faculty/Academician Participants",
     amountEarly: "₹3000",
-    amountPost: "-",
+    amountPost: "₹4000",
   },
   {
     id: "2",
     type: "Research Scholars/Students",
     amountEarly: "₹2500",
-    amountPost: "-",
+    amountPost: "₹3500",
   }, {
     id: "3",
     type: "Industry Participants",
     amountEarly: "₹3500",
-    amountPost: "-",
+    amountPost: "₹4500",
   }, {
     id: "4",
     type: "Foreign Participants",
     amountEarly: "USD 100",
-    amountPost: "-",
+    amountPost: "USD 150",
   },
   {
     id: "5",

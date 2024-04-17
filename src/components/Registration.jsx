@@ -10,10 +10,10 @@ const Registration = () => (
       </h2>
       <p className={`${styles.paragraph}  mt-5`}>
         <div className="flex flex-wrap justify-content-center">
-          <table class="table">
+          <table class="table border-separate border-spacing-x-4">
             <tr>
               <th></th>
-              <th className="mx-2">Early Bird Registration Fee</th>
+              <th>Early Bird Registration Fee</th>
               <th>Post Early Bird Registration Fee</th>
             </tr>
             {registration.map((reg) => (
