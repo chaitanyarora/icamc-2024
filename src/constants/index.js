@@ -46,7 +46,7 @@ export const publication = [
   },
   {
     id: "2",
-    content: "All papers (except pt.1)(ISBN number/ISSN/number with doi number and indexed in major database like crossref, BASE, Google Scholar e.t.c) will be published in conference proceeding with ISBN number."
+    content: "All papers (except pt.1) will be published in conference proceeding with ISBN number/ISSN number with doi number and indexed in major database like crossref, BASE, Google Scholar e.t.c."
   },
 ];
 
