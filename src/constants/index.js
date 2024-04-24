@@ -374,12 +374,12 @@ export const dates = [
   {
     id: "4",
     name: "Camera Ready Paper",
-    deadline: "April 25, 2024",
+    deadline: "April 28, 2024",
   },
   {
     id: "5",
     name: "Early Bird Registration",
-    deadline: "April 25, 2024",
+    deadline: "April 28, 2024",
   },
 ];
 
