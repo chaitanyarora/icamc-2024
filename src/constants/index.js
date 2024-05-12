@@ -44,10 +44,6 @@ export const publication = [
     id: "1",
     content: "Selected quality papers will be considered for publication in the International Journal of Information Technology published by Springer Nature ( Scopus/UGC CARE)- subjected to final evaluation by Springer"
   },
-  {
-    id: "2",
-    content: "All papers (except pt.1) will be published in conference proceeding with ISBN number/ISSN number with doi number and indexed in major database like crossref, BASE, Google Scholar e.t.c."
-  },
 ];
 
 export const advisoryBoard = [

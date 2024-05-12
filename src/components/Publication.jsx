@@ -15,7 +15,7 @@ const Publication = () => (
                     <li className='' id={p.id}>{p.content}</li>
                 ))}
                 <li>
-                    All papers (except pt.1) will be published in AIJR <a download="" className="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="https://aijr.org/icamc-2024/">(https://aijr.org/icamc-2024/)</a> conference proceeding with ISBN number.
+                    All papers (except pt.1) will be published in AIJR conference proceeding <a download="" className="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="https://aijr.org/icamc-2024/">(https://aijr.org/icamc-2024/)</a> with ISBN number.
                 </li>
             </p>
         </div>
