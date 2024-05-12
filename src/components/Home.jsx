@@ -3,7 +3,9 @@ import { discount, robot } from "../assets";
 import GetStarted from "./GetStarted";
 import Button from "./Button";
 
+
 const Home = () => {
+  
   return (
     <>
       <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
@@ -28,6 +30,7 @@ const Home = () => {
         </div>
 
       </section>
+      
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
           Paper Submission Link

@@ -13,8 +13,10 @@ const Publication = () => (
             <p className={`${styles.paragraph} text-justify mt-5`}>
                 {publication.map((p) => (
                     <li className='' id={p.id}>{p.content}</li>
-
                 ))}
+                <li>
+                    All papers (except pt.1) will be published in AIJR <a download="" className="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="https://aijr.org/icamc-2024/">(https://aijr.org/icamc-2024/)</a> conference proceeding with ISBN number.
+                </li>
             </p>
         </div>
     </section>
