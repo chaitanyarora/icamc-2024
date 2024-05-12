@@ -23,7 +23,7 @@ const AdvisoryBoard = () => (
         Advisory Board
       </h2>
       <div className={``}>
-      <table className='spacing-responsive text-white'>
+      <table className='spacing-responsive text-white border-separate border-spacing-x-4'>
             <tr>
               <th>Name</th>
               {/* <th>Position</th> */}
